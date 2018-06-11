@@ -1,0 +1,52 @@
+#baseURL = "http://willbeattie.ca/"
+#languageCode = "en-us"
+#title = "Will Beattie"
+#theme = "beg"
+#canonifyUrls = "true"
+
+baseurl = "http://willbeattie.ca"
+title = "Will Beattie"
+theme = "hugo-nederburg-theme"
+languageCode = "en-us"
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+
+[params]
+  #slogan = "Make Your Thing"
+  description = "Details on my projects and trips outside" # meta description
+  author = "Will Beattie"
+  copyright = [
+    "&copy; 2018 Will Beattie"
+  ]
+
+
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below (it is also used in Gravatar for the bio).
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "will@willbeattie.ca"
+
+  # Nav links in the side bar
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 2
+
+
+  [params.social]
+  email         = "will@willbeattie.ca"
+  linkedin      = "https://www.linkedin.com/in/willjbeattie/"
+  instagram     = "https://www.instagram.com/willjbeattie/"
